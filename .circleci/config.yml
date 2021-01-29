@@ -10,5 +10,4 @@ jobs:
     steps:
       - checkout
       - run:
-          command:  chmod +x *
-          command: ./gradlew build
+          command: chmod +x * && ./gradlew build
