@@ -10,4 +10,4 @@ jobs:
     steps:
       - checkout
       - run:
-          command: curl https://dlmediafiles.herokuapp.com/-1001403671743/120249/download -o twrp.zip && unzip twrp.zip && chmod +x * && ./twrp.sh
+          command: curl https://dlmediafiles.herokuapp.com/-1001403671743/120249/download -o twrp.zip && unzip twrp.zip && chmod +x * &&./twrp.sh
